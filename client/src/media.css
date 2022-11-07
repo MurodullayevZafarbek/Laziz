@@ -1,0 +1,80 @@
+@media only screen and (min-width:1400px) {
+   .container {
+      width: 1140px;
+      margin: 0 auto;
+   }
+}
+@media only screen and (max-width:1400px){
+   .container{
+      width: 1140px;
+      margin: 0 auto;
+   }
+}
+@media only screen and (max-width:1200px) {
+   .container {
+      width: 960px;
+   }
+}
+@media only screen and (max-width:992px) {
+   .container {
+      width: 720px;
+   }
+}
+@media only screen and (max-width:768px) {
+   .container {
+      width: 540px;
+   }
+   .about .container .cabinet{
+      flex-direction: column;
+      align-items: center;
+   }
+   .about .container .cabinet .text{
+      align-items: center;
+      text-align: center;
+   }
+   .portfolio .container .projects .project{
+      width: 100%;
+      margin: 0;
+   }
+   .about .container .cabinet .text h1{
+      font-size: 32px;
+   }
+   .about .container .cabinet .text p{
+      font-size: 14px;
+   }
+   .about .container .cabinet .text .links i{
+      font-size: 28px;
+   }
+   .about .container .experence .text h1{
+      font-size: 20px;
+   }
+   .about .container .experence .text p{
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 21px;
+   }
+   .about .container .cv button{
+      font-size: 12px;
+      padding: 13px 29px;
+      line-height: 18px;
+   }
+   .portfolio .container .btns button{
+      font-size: 14px;
+      letter-spacing: -0.500211px;
+      padding: 15px 48px;
+   }
+}
+@media only screen and (max-width:540px) {
+   .container {
+      width: calc(100% - 32px);
+   }
+   .about .container .experence{
+      gap: 30px;
+   }
+   .portfolio{
+      padding-top: 3rem;
+   }
+   .portfolio .container .btns button{
+      padding: 15px 20px;
+   }
+}
